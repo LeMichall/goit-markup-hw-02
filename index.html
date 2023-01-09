@@ -4,54 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header>
-      <a href="#">WebStudio</a>
+      <a class="logo" href="#"><span class="blue">Web</span>Studio</a>
       <nav>
-        <ul>
+        <ul class="navigation link">
           <li><a href="./index.html">Agencja</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="navigation small link active" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <a class="navigation small link active" href="tel:+48111111111"
+        >+48 111 111 111</a
+      >
     </header>
     <main>
       <!--Sekcja-"Header"-->
       <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+        <h1>EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
+        <button class="main-button" type="button">Zamów usługe</button>
       </section>
       <!--Sekcja-Nasze atuty-->
       <section>
         <ul>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="paragraph-title">LOREM IPSUM</h3>
+            <p class="paragraph-text small">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="paragraph-title">LOREM IPSUM</h3>
+            <p class="paragraph-text small">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="paragraph-title">LOREM IPSUM</h3>
+            <p class="paragraph-text small">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="paragraph-title">LOREM IPSUM</h3>
+            <p class="paragraph-text small">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -60,7 +71,7 @@
       </section>
       <!--Sekcja-Czym sie zajmujemy-->
       <section>
-        <h2>Czym sie zajmujemy</h2>
+        <h2 class="section-title">Czym sie zajmujemy</h2>
         <ul>
           <li>
             <img
@@ -90,7 +101,7 @@
       </section>
       <!--Sekcja-Nasz zespol-->
       <section>
-        <h2>Nasz zespół</h2>
+        <h2 class="section-title">Nasz zespół</h2>
         <ul>
           <li>
             <figure>
@@ -101,8 +112,8 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <br />Product Designer
+                <h3 class="name">John Doe</h3>
+                <span class="small">Product Designer</span>
               </figcaption>
             </figure>
           </li>
@@ -115,8 +126,8 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <br />Frontend Developer
+                <h3 class="name">John Doe</h3>
+                <span class="small">Frontend Developer</span>
               </figcaption>
             </figure>
           </li>
@@ -129,8 +140,8 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <br />Marketing
+                <h3 class="name">John Doe</h3>
+                <span class="small">Marketing</span>
               </figcaption>
             </figure>
           </li>
@@ -143,8 +154,8 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <br />UI designer
+                <h3 class="name">John Doe</h3>
+                <span class="small">UI designer</span>
               </figcaption>
             </figure>
           </li>
@@ -153,19 +164,26 @@
     </main>
     <!--Footer-->
     <footer>
-      <a href="#">WebStudio</a>
+      <a class="logo footer" href="#"><span class="blue">Web</span>Studio</a>
       <address>
         <ul>
           <li>
-            <a href="https://goo.gl/maps/qj117W8FbM5sxVwv7" target="_blank"
+            <a
+              class="footer active"
+              href="https://goo.gl/maps/qj117W8FbM5sxVwv7"
+              target="_blank"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="footer fade active" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
           <li>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+            <a class="footer fade active" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
       </address>

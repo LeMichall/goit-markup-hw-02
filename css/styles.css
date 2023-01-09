@@ -1,0 +1,107 @@
+:root {
+  --link-active: #2196f3;
+}
+:root {
+  --small-text: #757575;
+}
+:root {
+  --white-text: #ffffff;
+}
+:root {
+  --default-text: #212121;
+}
+:root {
+  --background-text-temp: #2f303a;
+}
+:root {
+  --background-button: #f5f4fa;
+}
+:root {
+  --footer-text: rgb(255, 255, 255, 0.3);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--default-text);
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: inherit;
+}
+.blue {
+  color: var(--link-active);
+}
+.link {
+    text-decoration:none;
+    color: inherit;
+}
+.link a{
+    text-decoration: none;
+    color: inherit;
+}
+.link a:hover{
+    color: var(--link-active);
+}
+.navigation{
+    font-weight: 500;
+    font-size: 14px;
+}
+.small{
+    color: var(--small-text);
+}
+.active:hover{
+    color: var(--link-active)
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--white-text);
+  background-color: var(--background-text-temp);
+  text-align: center;
+}
+.main-button {
+  background-color: var(--background-button);
+  font-weight: 700;
+  font-size: 16px;
+  font-family: inherit;
+}
+.paragraph-title {
+    font-size: 14px;
+}
+.paragraph-text{
+  font-size: 14px;
+}
+.section-title{
+     font-size: 36px;
+}
+.name{
+    font-weight: 500;
+}
+.footer {
+  color: var(--white-text);
+  background-color: var(--background-text-temp);
+}
+.fade {
+  color: var(--footer-text);
+  background-color: var(--background-text-temp);
+}
+.filters button {
+  background-color: var(--background-button);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+}
+button:hover {
+  cursor: pointer;
+  background-color: var(--link-active);
+  color: var(--white-text);
+}
+/*
+
+
+
+
+
+
