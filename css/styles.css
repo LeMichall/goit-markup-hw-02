@@ -34,25 +34,32 @@ body {
   color: var(--link-active);
 }
 .link {
-    text-decoration:none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-.link a{
-    text-decoration: none;
-    color: inherit;
+.link a {
+  text-decoration: none;
+  color: inherit;
 }
-.link a:hover{
-    color: var(--link-active);
+.link a:hover {
+  color: var(--link-active);
 }
-.navigation{
-    font-weight: 500;
-    font-size: 14px;
+.link a:focus {
+  color: var(--link-active);
 }
-.small{
-    color: var(--small-text);
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
 }
-.active:hover{
-    color: var(--link-active)
+.small {
+  color: var(--small-text);
+}
+.active:hover {
+  color: var(--link-active);
+}
+.active:focus {
+  color: var(--link-active);
 }
 h1 {
   font-weight: 900;
@@ -68,16 +75,16 @@ h1 {
   font-family: inherit;
 }
 .paragraph-title {
-    font-size: 14px;
-}
-.paragraph-text{
   font-size: 14px;
 }
-.section-title{
-     font-size: 36px;
+.paragraph-text {
+  font-size: 14px;
 }
-.name{
-    font-weight: 500;
+.section-title {
+  font-size: 36px;
+}
+.name {
+  font-weight: 500;
 }
 .footer {
   color: var(--white-text);
@@ -98,10 +105,10 @@ button:hover {
   background-color: var(--link-active);
   color: var(--white-text);
 }
-/*
-
-
-
-
-
-
+.picture h3 {
+  font-size: 18px;
+}
+button:focus {
+  background-color: var(--link-active);
+  color: var(--white-text);
+}
